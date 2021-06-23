@@ -11,3 +11,4 @@ function Ex(x) {
 };
 console.log(Ex(0.7)); //x < 1/0!
 
+module.exports.TaylorA = Ex;
