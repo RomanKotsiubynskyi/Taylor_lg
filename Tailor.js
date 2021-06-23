@@ -9,5 +9,5 @@ function Ex(x) {
     }
     return A;
 };
-console.log(Ex(0.5));
+console.log(Ex(0.7)); //x < 1/0!
 
