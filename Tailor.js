@@ -1,5 +1,5 @@
 // var i = 1; var n = 0:
-function Ex(x) {
+function ExA(x) {
     var i;
     var n = 0;
     var A = 0;
@@ -9,6 +9,6 @@ function Ex(x) {
     }
     return A;
 };
-console.log(Ex(0.7)); //x < 1/0!
+console.log(ExA(0.7)); //x < 1/0!
 
 module.exports.TaylorA = Ex;
